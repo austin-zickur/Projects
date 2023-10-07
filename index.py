@@ -1,1 +1,5 @@
-print('poo')
+import numpy as np
+A = np.array([0,1,0],[1,0,1],[0,0,0])
+B = np.array([0,.5,0],[.5,0,0],[0,0,.5])
+print(A@B)
+print(np.dot(B,A))
